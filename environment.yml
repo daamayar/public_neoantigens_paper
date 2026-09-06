@@ -1,0 +1,19 @@
+# Analysis environment for the peptide-HLA MM-PBSA pipeline.
+#
+#   conda env create -f environment.yml
+#   conda activate phla-mmpbsa
+#   source $CONDA_PREFIX/amber.sh      # required: sets AMBERHOME and the PATH
+#
+# AmberTools provides cpptraj, MMPBSA.py, MMPBSA.py.MPI, sander and ParmEd.
+# The study was run with AmberTools 25; 24 and later are expected to behave
+# identically for the operations used here.
+name: phla-mmpbsa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ambertools>=24
+  - numpy>=1.24
+  - scipy>=1.10
+  - matplotlib>=3.7
+  - openmpi          # only needed for --use-mpi

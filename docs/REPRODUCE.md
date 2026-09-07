@@ -67,9 +67,11 @@ python -m scripts.make_figures
 python -m scripts.make_report
 ```
 
-`list_dirs.txt` is a plain list of complex directory names, one per line. Create
-it from the table in the top-level README, or write a single name to run one
-complex.
+`list_dirs.txt` is a plain list of complex directory names, one per line (blank
+lines and `#` comments are ignored). A ready-to-use copy listing every complex
+ships at [`amber_free_energy/list_dirs.txt`](../amber_free_energy/list_dirs.txt);
+the commands above pick it up directly. Trim it to the subset you downloaded, or
+pass a single name to run one complex.
 
 ## Figures and tables
 

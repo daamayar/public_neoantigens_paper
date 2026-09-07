@@ -17,8 +17,7 @@ DCD or NetCDF trajectory needs a fixed atom count, and solvating frames independ
 gives a different water count each time. The pipeline reads the dry trajectory directly
 instead — see [Choosing the trajectory form](#choosing-the-trajectory-form).
 
-> Zenodo DOIs are inserted here at submission. The index record carries the
-> concept DOI cited in the paper and links to every other record.
+> DOI: [10.5281/zenodo.22226388](https://doi.org/10.5281/zenodo.22226388)
 
 ## What is deposited
 

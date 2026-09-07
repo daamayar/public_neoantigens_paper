@@ -1,0 +1,33 @@
+# list_dirs.txt - complexes to process, one directory name per line.
+#
+# Consumed by run_amber_mmpbsa.py and scripts.detect_unbinding. Blank lines and
+# lines beginning with '#' are ignored; a trailing '/' on a name is stripped.
+# Each name must match a directory under $PHLA_DATA_ROOT (see docs/DATA.md).
+#
+# This file lists every complex in the study. Trim it to the subset you have
+# downloaded, or pass a single name on the command line to run one complex.
+
+# --- Single-nucleotide-variant neoantigen / wild-type pairs ---
+akap6_e6k_neo_a_0201_wlidmkslv
+akap6_e6k_wt_a_0201_wlidmeslv
+astn1_p2l_neo_a_0201_klygldwael
+astn1_p2l_wt_a_0201_kpygldwael
+flt3_d835y_neo_a_0201_yimsdsnyv
+flt3_d835y_wt_a_0201_dimsdsnyv
+pik3ca_e545k_neo_a_1101_strdplseitk
+pik3ca_e545k_wt_a_1101_strdplseite
+kras_g12c_neo_a_1101_vvvgacgvgk
+kras_g12c_wt_a_1101_vvvgaggvgk
+kras_g12d_neo_c_0802_gadgvgksa
+kras_g12d_wt_c_0802_gaggvgksa
+kras_g12v_neo_a_1101_vvgavgvgk
+kras_g12v_wt_a_1101_vvgaggvgk
+p53_r175h_neo_a_0201_hmtevvrhc
+p53_r175h_wt_a_0201_hmtevvrrc
+pik3ca_h1047l_neo_a_0301_alhggwttk
+pik3ca_h1047l_wt_a_0301_ahhggwttk
+
+# --- Frameshift neoantigens ---
+apc_neo_a_0201_lqmdflvhpa
+npm_neo_a_0201_claveevsl
+tgfbrii_neo_a_0201_rlsscvpva
